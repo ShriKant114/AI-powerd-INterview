@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PrepWise</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    body {
+      zoom: 1.1;
+    }
+  </style>
+</head>
+<body class="bg-black text-white">
+
+  <!-- Navbar -->
+  <nav class="max-w-screen-xl mx-auto flex justify-between items-center px-6 py-4 border-b border-gray-800">
+    <div class="text-2xl font-bold">PrepWise</div>
+    <div>
+      <img src="hero.png" alt="User Avatar" class="w-10 h-10 rounded-full border-2 border-white" />
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="max-w-screen-xl mx-auto flex flex-col-reverse md:flex-row items-center justify-between px-[5%] py-14 gap-10">
+    <!-- Text Content -->
+    <div class="max-w-xl text-center md:text-left">
+      <h1 class="text-2xl md:text-3xl lg:text-4xl font-bold mb-6 leading-snug">
+        Get Interview-Ready with <br class="hidden md:block" />
+        AI-Powered Practice & Feedback
+      </h1>
+      <p class="text-gray-300 text-lg md:text-xl mb-6">
+        Practice real interview questions & get instant feedback.
+      </p>
+      <button class="bg-purple-600 hover:bg-purple-700 text-white py-3 px-6 rounded-lg text-lg transition-all">
+        Start an Interview
+      </button>
+    </div>
+
+    <!-- Hero Image -->
+    <div class="w-full max-w-sm mx-auto">
+      <img src="hero.png" alt="AI Interview Robot" class="w-full rounded-xl shadow-lg" />
+    </div>
+  </section>
+
+  <!-- Interview Cards Section -->
+  <section class="max-w-screen-xl mx-auto px-[5%] py-32">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+      <!-- Card Placeholder Example -->
+      <div class="bg-[#111215] rounded-2xl border border-[#2a2a2a] p-5 shadow-lg relative hover:scale-[1.02] transition-all duration-300 w-[350px] min-h-[380px] mx-auto">
+        <div class="absolute top-0 right-0 bg-[#2c2f36] text-xs px-3 py-1 rounded-bl-xl rounded-tr-2xl text-white">Technical</div>
+        <div class="flex items-center gap-4 mb-4">
+          <div class="bg-purple-600 w-14 h-14 rounded-full flex items-center justify-center text-3xl font-bold">H</div>
+          <h3 class="text-2xl font-semibold">Frontend Dev Interview</h3>
+        </div>
+        <p class="text-gray-400 text-base mb-5 leading-relaxed">
+          This interview gives you the power to understand a real-life interview experience. This AI is the best frontend interview simulator — take this interview and gain real-world confidence.
+        </p>
+        <p class="text-yellow-400 text-base font-medium mb-5">⭐ 4.5/5</p>
+        <div class="flex items-center justify-between">
+          <div class="flex gap-2">
+            <div class="w-10 h-10 rounded-full bg-[#1f1f1f] flex items-center justify-center">img1</div>
+            <div class="w-10 h-10 rounded-full bg-[#1f1f1f] flex items-center justify-center">img2</div>
+            <div class="w-10 h-10 rounded-full bg-[#1f1f1f] flex items-center justify-center">img3</div>
+          </div>
+          <button class="bg-purple-600 hover:bg-purple-700 text-white px-5 py-2 rounded-full text-base">Take Interview</button>
+        </div>
+      </div>
+    <!-- Database Card -->
+    <div class="bg-[#111215] rounded-2xl border border-[#2a2a2a] p-5 shadow-lg relative hover:scale-[1.02] transition-all duration-300 w-[350px] min-h-[380px] mx-auto">
+      <div class="absolute top-0 right-0 bg-[#2c2f36] text-xs px-3 py-1 rounded-bl-xl rounded-tr-2xl text-white">Technical</div>
+      <div class="flex items-center gap-4 mb-4">
+        <div class="bg-blue-600 w-14 h-14 rounded-full flex items-center justify-center text-3xl font-bold">D</div>
+        <h3 class="text-2xl font-semibold">Database Interview</h3>
+      </div>
+      <p class="text-gray-400 text-base mb-5 leading-relaxed">Practice SQL, normalization, and query optimization with this tailored database interview.</p>
+      <p class="text-yellow-400 text-base font-medium mb-5">⭐ 4.4/5</p>
+      <div class="flex items-center justify-between">
+        <div class="flex gap-2">
+          <div class="w-10 h-10 rounded-full bg-[#1f1f1f] flex items-center justify-center">img1</div>
+          <div class="w-10 h-10 rounded-full bg-[#1f1f1f] flex items-center justify-center">img2</div>
+          <div class="w-10 h-10 rounded-full bg-[#1f1f1f] flex items-center justify-center">img3</div>
+        </div>
+        <button class="bg-blue-600 hover:bg-blue-700 text-white px-5 py-2 rounded-full text-base">Take Interview</button>
+      </div>
+    </div>
+    
+
+    <!-- Python Card -->
+    <div class="bg-[#111215] rounded-2xl border border-[#2a2a2a] p-5 shadow-lg relative hover:scale-[1.02] transition-all duration-300 w-[350px] min-h-[380px] mx-auto">
+      <div class="absolute top-0 right-0 bg-[#2c2f36] text-xs px-3 py-1 rounded-bl-xl rounded-tr-2xl text-white">Technical</div>
+      <div class="flex items-center gap-4 mb-4">
+        <div class="bg-yellow-500 w-14 h-14 rounded-full flex items-center justify-center text-3xl font-bold">P</div>
+        <h3 class="text-2xl font-semibold">Python Dev Interview</h3>
+      </div>
+      <p class="text-gray-400 text-base mb-5 leading-relaxed">Deep dive into Python’s syntax, libraries, and logic building in this interview.</p>
+      <p class="text-yellow-400 text-base font-medium mb-5">⭐ 4.6/5</p>
+      <div class="flex items-center justify-between">
+        <div class="flex gap-2">
+          <div class="w-10 h-10 rounded-full bg-[#1f1f1f] flex items-center justify-center">img1</div>
+          <div class="w-10 h-10 rounded-full bg-[#1f1f1f] flex items-center justify-center">img2</div>
+          <div class="w-10 h-10 rounded-full bg-[#1f1f1f] flex items-center justify-center">img3</div>
+        </div>
+        <button class="bg-yellow-500 hover:bg-yellow-600 text-white px-5 py-2 rounded-full text-base">Take Interview</button>
+      </div>
+    </div>
+
+    <!-- AI/ML Card -->
+    <div class="bg-[#111215] rounded-2xl border border-[#2a2a2a] p-5 shadow-lg relative hover:scale-[1.02] transition-all duration-300 w-[350px] min-h-[380px] mx-auto">
+      <div class="absolute top-0 right-0 bg-[#2c2f36] text-xs px-3 py-1 rounded-bl-xl rounded-tr-2xl text-white">Technical</div>
+      <div class="flex items-center gap-4 mb-4">
+        <div class="bg-green-600 w-14 h-14 rounded-full flex items-center justify-center text-3xl font-bold">A</div>
+        <h3 class="text-2xl font-semibold">AI/ML Interview</h3>
+      </div>
+      <p class="text-gray-400 text-base mb-5 leading-relaxed">Evaluate your skills in data science, ML models, and real-world use cases through this AI/ML interview.</p>
+      <p class="text-yellow-400 text-base font-medium mb-5">⭐ 4.7/5</p>
+      <div class="flex items-center justify-between">
+        <div class="flex gap-2">
+          <div class="w-10 h-10 rounded-full bg-[#1f1f1f] flex items-center justify-center">img1</div>
+          <div class="w-10 h-10 rounded-full bg-[#1f1f1f] flex items-center justify-center">img2</div>
+          <div class="w-10 h-10 rounded-full bg-[#1f1f1f] flex items-center justify-center">img3</div>
+        </div>
+        <button class="bg-green-600 hover:bg-green-700 text-white px-5 py-2 rounded-full text-base">Take Interview</button>
+      </div>
+    </div>
+
+    <!-- DevOps Card -->
+    <div class="bg-[#111215] rounded-2xl border border-[#2a2a2a] p-5 shadow-lg relative hover:scale-[1.02] transition-all duration-300 w-[350px] min-h-[380px] mx-auto">
+      <div class="absolute top-0 right-0 bg-[#2c2f36] text-xs px-3 py-1 rounded-bl-xl rounded-tr-2xl text-white">Technical</div>
+      <div class="flex items-center gap-4 mb-4">
+        <div class="bg-pink-500 w-14 h-14 rounded-full flex items-center justify-center text-3xl font-bold">D</div>
+        <h3 class="text-2xl font-semibold">DevOps Interview</h3>
+      </div>
+      <p class="text-gray-400 text-base mb-5 leading-relaxed">A solid mix of deployment, CI/CD pipelines, and infrastructure scenarios in one powerful interview experience.</p>
+      <p class="text-yellow-400 text-base font-medium mb-5">⭐ 4.5/5</p>
+      <div class="flex items-center justify-between">
+        <div class="flex gap-2">
+          <div class="w-10 h-10 rounded-full bg-[#1f1f1f] flex items-center justify-center">img1</div>
+          <div class="w-10 h-10 rounded-full bg-[#1f1f1f] flex items-center justify-center">img2</div>
+          <div class="w-10 h-10 rounded-full bg-[#1f1f1f] flex items-center justify-center">img3</div>
+        </div>
+        <button class="bg-pink-500 hover:bg-pink-600 text-white px-5 py-2 rounded-full text-base">Take Interview</button>
+      </div>
+    </div>
+
+    <!-- DevOps Card -->
+    <div class="bg-[#111215] rounded-2xl border border-[#2a2a2a] p-5 shadow-lg relative hover:scale-[1.02] transition-all duration-300 w-[350px] min-h-[380px] mx-auto">
+      <div class="absolute top-0 right-0 bg-[#2c2f36] text-xs px-3 py-1 rounded-bl-xl rounded-tr-2xl text-white">Technical</div>
+      <div class="flex items-center gap-4 mb-4">
+        <div class="bg-pink-500 w-14 h-14 rounded-full flex items-center justify-center text-3xl font-bold">D</div>
+        <h3 class="text-2xl font-semibold">DevOps Interview</h3>
+      </div>
+      <p class="text-gray-400 text-base mb-5 leading-relaxed">A solid mix of deployment, CI/CD pipelines, and infrastructure scenarios in one powerful interview experience.</p>
+      <p class="text-yellow-400 text-base font-medium mb-5">⭐ 4.5/5</p>
+      <div class="flex items-center justify-between">
+        <div class="flex gap-2">
+          <div class="w-10 h-10 rounded-full bg-[#1f1f1f] flex items-center justify-center">img1</div>
+          <div class="w-10 h-10 rounded-full bg-[#1f1f1f] flex items-center justify-center">img2</div>
+          <div class="w-10 h-10 rounded-full bg-[#1f1f1f] flex items-center justify-center">img3</div>
+        </div>
+        <button class="bg-pink-500 hover:bg-pink-600 text-white px-5 py-2 rounded-full text-base">Take Interview</button>
+      </div>
+    </div>
+    
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+<section class="max-w-screen-xl mx-auto px-[5%]">
+  <div class="bg-[#111215] p-10 rounded-2xl shadow-2xl border border-[#2a2a2a]">
+    <h2 class="text-4xl font-bold mb-6 text-center">About Us</h2>
+    <p class="text-gray-300 text-lg text-center max-w-4xl mx-auto leading-relaxed mb-10">
+      At PrepWise, we know how overwhelming interviews can feel. That’s why we created a space where you can practice confidently with the help of AI. Whether you're brushing up on frontend, backend, or even technical HR rounds — our platform is designed to give you that real interview experience without the pressure.
+    </p>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
+      <div class="bg-[#1a1b1e] p-5 rounded-xl text-center shadow-md border border-[#2c2c2e]">
+        <h3 class="text-xl font-semibold mb-2">🎯 Real-Life Simulation</h3>
+        <p class="text-gray-400 text-sm">Feel like you're in an actual interview room. Real questions. Real scenarios. Real growth.</p>
+      </div>
+      <div class="bg-[#1a1b1e] p-5 rounded-xl text-center shadow-md border border-[#2c2c2e]">
+        <h3 class="text-xl font-semibold mb-2">🤖 Instant AI Feedback</h3>
+        <p class="text-gray-400 text-sm">Get quick, smart feedback on your answers — know what’s working and what needs polish.</p>
+      </div>
+      <div class="bg-[#1a1b1e] p-5 rounded-xl text-center shadow-md border border-[#2c2c2e]">
+        <h3 class="text-xl font-semibold mb-2">🧩 Multiple Interview Tracks</h3>
+        <p class="text-gray-400 text-sm">Choose what you want to master: frontend, backend, Python, AI/ML, HR and more.</p>
+      </div>
+      <div class="bg-[#1a1b1e] p-5 rounded-xl text-center shadow-md border border-[#2c2c2e]">
+        <h3 class="text-xl font-semibold mb-2">📅 Practice Your Way</h3>
+        <p class="text-gray-400 text-sm">No schedules. No stress. Just open PrepWise whenever you’re ready to grow.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<br>
+<br>
+
+</body>
+</html>
